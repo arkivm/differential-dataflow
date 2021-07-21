@@ -1,6 +1,6 @@
 # Differential Dataflow
 
-In this book we will work through the motivation and technical details behind [differential dataflow](https://github.com/frankmcsherry/differential-dataflow), a computational framework build on top of [timely dataflow](https://github.com/frankmcsherry/timely-dataflow) intended for efficiently performing computations on large amounts of data and *maintaining* the computations as the data change.
+In this book we will work through the motivation and technical details behind [differential dataflow](https://github.com/TimelyDataflow/differential-dataflow), a computational framework build on top of [timely dataflow](https://github.com/TimelyDataflow/timely-dataflow) intended for efficiently performing computations on large amounts of data and *maintaining* the computations as the data change.
 
 Differential dataflow programs look like many standard "big data" computations, borrowing idioms from frameworks like MapReduce and SQL. However, once you write and run your program, you can *change* the data inputs to the computation, and differential dataflow will promptly show you the corresponding changes in its output. Promptly meaning in as little as milliseconds.
 
